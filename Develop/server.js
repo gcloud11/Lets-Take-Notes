@@ -6,25 +6,35 @@ const fs = require('fs');
 
 // Setting up express server
 const app = express();
-const PORT = 4000;
+const PORT = 4040;
 
 //Middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+let notesArray = [];
 
-// GET Routes
-app.get("/notes", function (req, res) {
-    res.sendFile(path.join(__dirname, "./Develop/notes.html"));
+app.get("/api/notes", function(req, res) {
+    
 });
 
+// HTML GET Routes
+//Renders notes home page back to client
 app.get("/", function (req, res) {
-    res.sendFile(path.join(__dirname, "./Develop/index.html"));
+    res.sendFile(path.join(__dirname, "public/index.html"));
 });
 
-app.get("/api/notes", function (req, res) {
-    readFileAsync(path.join(__dirname, "./db/db.json"), "utf8")
-        .then(function (data) {
-            return res.json(JSON.parse(data));
-        });
+// Renders notes page once get started is pressed
+app.get("/notes", function (req, res) {
+    res.sendFile(path.join(__dirname, "public/notes.html"));
+});
+
+app.get("/api/notes", function(req, res) {
+    res.sendFile(path.json(__dirname, "db/db.json"));
+  });
+
+
+// Listner
+app.listen(PORT, function () {
+    console.log("App is listening on PORT: " + PORT);
 });
