@@ -8,7 +8,7 @@ const fs = require("fs");
 // Express server created here
 const app = express();
 // Sets an Initial port for listeners
-const PORT = 4040;
+const PORT = process.env.PORT || 4040;
 
 //Start notes
 
@@ -111,7 +111,7 @@ app.get("/notes", function(req, res) {
 });
 
 // Home page
-app.get("/index", function(req, res) {
+app.get("/", function(req, res) {
   res.sendFile(path.join(__dirname, "public/index.html"));
 });
 
