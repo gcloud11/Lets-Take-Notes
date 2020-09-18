@@ -9,11 +9,10 @@ This application allows the user to type notes, save them, retreive and delete n
 Visuals
 
 ```
-
-<img width="1036" alt="Screen Shot 2020-09-17 at 11 40 31 PM" src="https://user-images.githubusercontent.com/67169488/93556886-530f7800-f93f-11ea-8605-c7cfd8e5b914.png">
-<img width="1038" alt="Screen Shot 2020-09-17 at 11 40 56 PM" src="https://user-images.githubusercontent.com/67169488/93556892-5571d200-f93f-11ea-8dee-dd08608a35f6.png">
 Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
 ```
+<img width="1036" alt="Screen Shot 2020-09-17 at 11 40 31 PM" src="https://user-images.githubusercontent.com/67169488/93556886-530f7800-f93f-11ea-8605-c7cfd8e5b914.png">
+<img width="1038" alt="Screen Shot 2020-09-17 at 11 40 56 PM" src="https://user-images.githubusercontent.com/67169488/93556892-5571d200-f93f-11ea-8dee-dd08608a35f6.png">
 
 Installation
 ```
