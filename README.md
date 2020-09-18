@@ -16,6 +16,13 @@ This application allows the user to type notes, save them, retreive and delete n
 Use express for server side portion and the node package manager modules: fs, path and util modules
 ```
 Usage
+```
+- To use or try this application clone the https link from the git terminal onto desktop.
+- Import repository into VS code
+- Right click into the "server.js" folder, right click and select "open in integrated terminal"
+- Type: node server.js
+- This is prompt the port on the server to begin to run and the application to be used.
+```
 
 [Note-Taker App](https://fathomless-tor-08773.herokuapp.com/)
 
