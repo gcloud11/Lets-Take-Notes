@@ -1,6 +1,6 @@
 # Lets-Take-Notes
 
-This application allows the user to type notes, save them, retreive and delete notes as needed.
+This application allows the user to type notes, save them, retreive and delete notes as needed. Virtual note-taking is great because there is no worry for trying to find that endlessly hidden piece of paper. This app takes place on your computer. Never lose a note again.
 
 [Note-Taker App](https://fathomless-tor-08773.herokuapp.com/)
 
